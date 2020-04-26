@@ -1,0 +1,27 @@
+.userCardWrap{
+    display: flex;
+    align-items: center;
+    background-color: silver;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.userPictureContainer{
+    position: absolute;
+    overflow: hidden;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.userPictureContainer > img {
+    position: absolute;
+    height: inherit;
+    width: inherit;
+    object-fit: cover;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
